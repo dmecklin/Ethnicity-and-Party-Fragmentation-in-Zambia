@@ -3,7 +3,7 @@ library(tidyverse)
 # Census data from 2010 CENSUS OF POPULATION AND HOUSING: https://drive.google.com/drive/folders/0BzixB3inWbiGZ2k1bmpsQ2pPR2M
 # "Zambia" refers to the whole country, there is no province called that.
 census_2010 <- tibble(
-plabs <- c("Zambia", "Central", "Copperbelt", "Eastern", "Luapula", "Lusaka",  "Muchinga", "North", "Northwestern", "Southern", "Western"),
+plabs <- c("Zambia", "CENTRAL", "COPPERBELT", "EASTERN", "LUAPULA", "LUSAKA",  "MUCHINGA", "NORTH", "NORTH-WESTERN", "SOUTHERN", "WESTERN"),
 Bemba  = c(21,13.6,35.9,1.2,44.1,20.2,37.2,55.3,2.8,3.4,0.7),
 Lunda = c(0.9,0.3,1.7,0,7,0.6,0.1,0.1,0.1,0.1,0.1),
 Lala = c(3.1,20.3,4.8,0.1,0.3,1.5,0.8,0.2,0.2,0.1,0.0),
@@ -33,4 +33,4 @@ Senga = c(0.9, 0.3, 0.5, 0.6, 0.0, 0.5, 11.3, 0.1, 0.1, 0.1, 0.0),
 Lungu = c(0.8, 0.1, 0.3, 0.0, 0.1, 0.2, 0.1, 8.3, 0.0, 0.0, 0.0),
 Mambwe = c(2.5, 1.4, 2.1, 0.1, 0.3, 2.9, 2.3, 16.3, 0.1, 0.3, 0.1),
 Namwanga = c(2.8, 2.0, 4.2, 0.2, 0.2, 2.4, 23.3, 2.4, 0.2, 0.3, 0.1))
-plabs <- c("Zambia", "Central", "Copperbelt", "Eastern", "Luapula", "Lusaka",  "Muchinga", "North", "Northwestern", "Southern", "Western")
+plabs <- c("Zambia", "CENTRAL", "COPPERBELT", "EASTERN", "LUAPULA", "LUSAKA",  "MUCHINGA", "NORTH", "NORTH-WESTERN", "SOUTHERN", "WESTERN")
