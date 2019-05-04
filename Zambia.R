@@ -91,7 +91,11 @@ geom_point(mapping = aes(x = cst, y = ENoP.x))
 ggplot(data = ENoP_total) + 
   geom_point(mapping = aes(x = cst, y = ENoP.y))
 
-
+# V Regression
+regression <- ENoP_cst_n %>%  full_join(Heterogenity, by = "sub")
+reg <- lm(sum ~ ENoP.y + ENoP.x, data = regression)
+reg
+summary(reg)
                                                   
 
 
